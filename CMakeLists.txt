@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.17)
 project(Signal_Slot)
 
 set(CMAKE_CXX_STANDARD 14)
