@@ -12,8 +12,6 @@ file(GLOB_RECURSE SRCS "src/*.cpp")
 add_library(fox_signal STATIC ${SRCS})
 target_include_directories(fox_signal PUBLIC "include")
 
-set(SIGNAL_EXAMPLE 1)
-
 if (SIGNAL_EXAMPLE)
     add_subdirectory(tests)
 endif()
